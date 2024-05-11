@@ -44,12 +44,12 @@ public class CafeShop {
 		totalBill = totalBill + currentBill;
 	}
 	
-	//public void applyDiscount() {
-       // if (totalBill > 50) {
-           // discount = (totalBill * 10) / 100;
-           // totalBill -= discount;
-        //}
-    //}
+	public void applyDiscount() {
+       if (totalBill > 50) {
+           discount = (totalBill * 10) / 100;
+         totalBill -= discount;
+}
+    }
   
 	
 	public void printBill() {
